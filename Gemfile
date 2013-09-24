@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
+gem 'nyan-cat-formatter'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -35,7 +36,10 @@ end
 group :development, :test do 
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'factory_girl'
+  gem 'launchy'
+  gem 'valid_attribute'
+  gem 'shoulda'
 end
 
 # Use ActiveModel has_secure_password
