@@ -44,7 +44,12 @@ group :development, :test do
 end
 
 gem 'devise'
+
+# look at all this bootstrap
 gem 'twitter-bootstrap-rails'
+gem "less-rails"
+gem 'therubyracer'
+gem 'flatui-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

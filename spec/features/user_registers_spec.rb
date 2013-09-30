@@ -3,7 +3,7 @@ require 'spec_helper'
 feature 'User can register a account', %Q{
   As a User
   I want to register 
-  So I can review movies
+  So I can see where's crowded
 }do 
 
 let(:user) { FactoryGirl.build(:user) }
